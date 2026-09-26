@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  width: min-content;
+}
+
+.grid div {
+  border-left: black 2.5px solid;
+  border-right: black 2.5px solid;
+  border-top: black 2.5px solid;
+  border-bottom: black 2.5px solid;
+  height: 100%;
+  width: 100%;
+}
+
+.grid div.hide-top {
+  border-top: none;
+}
+.grid div.hide-bottom {
+  border-bottom: none;
+}
+
+.grid div.hide-right {
+  border-right: none;
+}
+
+.grid div.hide-left {
+  border-left: none;
+}
+
+div.grid .track {
+  background-color: yellow;
+}
